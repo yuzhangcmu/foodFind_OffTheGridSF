@@ -1,0 +1,66 @@
+<!-- Added by Yu Zhang for display the vendor list. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:background="#FFF0F8FF" >
+        <!-- android:background="#303030"-->
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:textColor="#ffa31f06"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/name_layout"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/date_layout"
+        android:layout_height="90dip" >
+
+        <ImageView
+            android:id="@+id/head_portrait"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:contentDescription="The doctore head"
+            android:src="@drawable/food1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ff1e11c7"
+            android:textStyle="bold"
+            android:text="Name"
+            android:layout_toRightOf="@id/head_portrait"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/occurrence"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@id/head_portrait"
+            android:textColor="#000000"
+            android:text="Location"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

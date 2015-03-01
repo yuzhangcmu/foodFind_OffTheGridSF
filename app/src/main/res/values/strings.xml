@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodtruck</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_of_vendor">Name of the Vendor</string>
+    <string name="frequency_of_vendor">3</string>
+    <string name="Label_frequency">OCCURRENCES IN 30 DAYS</string>
+    <string name="title_activity_vender">Vendor Information</string>
+
+</resources>
